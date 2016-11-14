@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="node_modules/semantic-ui/dist/semantic.min.css"> 
+	<meta charset="UTF-8">
+	<title>Inscription et connexion</title>
+</head>
+<body>
+	<h1>Identifiant</h1>
+	<form method="post" action="/login">
+		<div class="userName">
+		<label for="username">Nom d'utilisation: </label>
+			<input type="text" id="username" name="username" placeholder="nom prénom">
+		</div>
+		<div class="passWord">
+			<label for="mdp">Mot de passe: </label>
+			<input type="password" id="password" name="password" placeholder="mot de passe">
+		</div>	
+		<input type="submit" id="submit" value="Connextion">
+	</form>
+	<script src="node_modules/jquery/dist/jquery.js"></script>	
+	<script src="node_modules/semantic-ui/dist/semantic.js"></script>
+<!-- 	<script src="app.js"></script>
+ --></body>
+</html>
