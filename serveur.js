@@ -14,7 +14,7 @@ app.post('/login',function(req,res){
 		console.log(post);
 	res.sendFile(__dirname + '/public/connecter.html');
 	}
-	else{res.send('Erreur!')
+	else{ res.send('Erreur connard !')
 
 	}
 	
